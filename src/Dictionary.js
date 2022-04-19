@@ -17,6 +17,11 @@ export default function Dictionary(props) {
     axios.get(apiUrl).then(handleResponse);
   }
 
+  function handleSubmit(event) {
+    event.preventDefault();
+    search();
+  }
+
   function handleInput(event) {
     setInput(event.target.value);
   }
@@ -29,8 +34,13 @@ export default function Dictionary(props) {
   if (loaded) {
     return (
       <div className="Dictionary">
-        <form onSubmit={search}>
-          <input type="search" onChange={handleInput} />
+        <form onSubmit={handleSubmit}>
+          <input
+            type="search"
+            placeholder="Type a word..."
+            onChange={handleInput}
+          />
+          <button type="submit">Go!</button>
         </form>
         <Results results={result} />
       </div>

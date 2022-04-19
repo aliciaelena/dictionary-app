@@ -1,3 +1,22 @@
-body {
-  background-color: pink;
+form {
+  text-align: center;
+}
+
+input {
+  color: #54b3a8;
+  font-size: 20px;
+  width: 400px;
+  border-radius: 5px;
+  border: 1px solid grey;
+  font-family: "Indie Flower", cursive;
+}
+
+button {
+  font-size: 20px;
+  background-color: #54b3a8;
+  color: white;
+  border-radius: 5px;
+  border: none;
+  margin-left: 5px;
+  font-family: "Indie Flower", cursive;
 }
