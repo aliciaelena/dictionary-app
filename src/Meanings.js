@@ -5,18 +5,22 @@ import "./Meanings.css";
 export default function Meanings(props) {
   return (
     <div className="Meanings">
-      <span className="header">{props.meanings.partOfSpeech}</span>
+      <section>
+        <h3>{props.meanings.partOfSpeech}</h3>
 
-      {props.meanings.definitions.map(function (definition, index) {
-        return (
-          <div key={index}>
-            <Synonyms synonyms={definition.synonyms} />
-            {definition.definition}
-            <br />
-            <em>{definition.example}</em>
-          </div>
-        );
-      })}
+        {props.meanings.definitions.map(function (definition, index) {
+          return (
+            <div key={index}>
+              <span className="definition">{definition.definition}</span>
+              <br />
+              <span className="example">{definition.example}</span>
+              <br />
+              <Synonyms synonyms={definition.synonyms} />
+              <br />
+            </div>
+          );
+        })}
+      </section>
     </div>
   );
 }

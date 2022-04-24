@@ -1,4 +1,23 @@
-.Meanings .header {
+.Meanings h3 {
   font-style: bold;
+  font-style: italic;
+  font-weight: 600;
   font-size: 20px;
+  color: #ec6d3f;
+  text-transform: capitalize;
+}
+
+.Meanings .example {
+  font-style: italic;
+  color: #ec6d3f;
+  opacity: 0.7;
+  font-size: 14px;
+}
+
+.Meanings section {
+  border: 1px solid #e7d0cc;
+  border-radius: 8px;
+  padding: 10px;
+  margin-top: 15px;
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.1);
 }

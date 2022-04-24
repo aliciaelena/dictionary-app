@@ -7,6 +7,7 @@ export default function App() {
       <div className="App">
         <h1>Dictionary</h1>
         <Dictionary defaultKeyword="sunshine" />
+        <br />
         <footer>
           <a
             href="https://github.com/aliciaelena/dictionary-app"

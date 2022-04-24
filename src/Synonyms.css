@@ -3,4 +3,18 @@
   margin: 0;
   padding: 0;
   text-align: left;
+  display: inline;
+}
+
+.Synonyms li {
+  color: white;
+  opacity: 0.7;
+  border: 1px solid #ec6d3f;
+  background: #ec6d3f;
+  border-radius: 10px;
+  padding: 5px 10px;
+  margin-right: 10px;
+  line-height: 2.7;
+  display: inline;
+  font-size: 14px;
 }

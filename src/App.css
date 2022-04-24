@@ -1,7 +1,16 @@
-h1 {
+.App h1 {
   margin-top: 20px;
-  color: #54b3a8;
+  color: #d5442e;
   text-align: center;
   font-family: "Indie Flower", cursive;
   font-size: 40px;
+}
+
+.App footer {
+  font-size: 10px;
+  margin-bottom: 20px;
+}
+
+.App a {
+  color: #ec6d3f;
 }

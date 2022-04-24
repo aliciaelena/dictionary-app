@@ -3,20 +3,34 @@ form {
 }
 
 input {
-  color: #54b3a8;
+  color: #d5442e;
   font-size: 20px;
-  width: 400px;
+  width: 300px;
   border-radius: 5px;
-  border: 1px solid grey;
+  border: 1px solid #ec6d3f;
   font-family: "Indie Flower", cursive;
 }
 
 button {
   font-size: 20px;
-  background-color: #54b3a8;
+  background-color: #d5442e;
   color: white;
   border-radius: 5px;
   border: none;
   margin-left: 5px;
   font-family: "Indie Flower", cursive;
+}
+
+button:hover {
+  color: #d5442e;
+  background-color: white;
+  border: 1px solid #d5442e;
+}
+
+::placeholder {
+  color: #ec6d3f;
+}
+
+input:focus {
+  outline: none;
 }
